@@ -28,9 +28,16 @@
 
 }
 
-
+/* @media only creen and (max-width: 992px){
+    .projectDescription{
+        background-color: red;
+    }
+} */
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
+    /* .projectDescription{
+        background-color: red;
+    } */
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
@@ -63,11 +70,21 @@
         margin: 5%;
     }
 }
-
+@media only screen and (min-width: 1200px){
+    .projectDescription{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .projectDescription{
+        display: none;
+    }
+}
 
 
 /* if the viewport is equal to 1910px or less than that */ 
 @media only screen and (max-width: 1910px){
+    
     .header_area .main-menu .navbar{
         padding: 1rem;
     }
