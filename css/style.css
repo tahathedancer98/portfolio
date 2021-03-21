@@ -1,6 +1,4 @@
-.header_area .main-menu .nav-item .nav-link:hover{ 
-    background-color:pink;
-}
+
 /* import fonts from fonts.css file */ 
 @import url(./fonts.css);
 
@@ -35,9 +33,12 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+#menuy{
+    background-color: blue;
+}
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: pink;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -345,8 +346,5 @@ footer.footer-area .social a:hover > i{
     color: var(--primary-color);
 }
 
-#menuy{
-    background-color: blue;
-}
 
 /* End Footer */ 
