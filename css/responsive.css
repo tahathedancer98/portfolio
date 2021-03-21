@@ -70,13 +70,21 @@
         margin: 5%;
     }
 }
+/* PC display */
 @media only screen and (min-width: 1200px){
     .projectDescription{
         display: block;
     }
+    #cvEmbed{
+        display: block;
+    }
 }
+/* Mobile display */
 @media only screen and (max-width: 1200px){
     .projectDescription{
+        display: none;
+    }
+    #cvEmbed{
         display: none;
     }
 }
