@@ -85,7 +85,7 @@
         display: none;
     }
     #cvEmbed{
-        display: none;
+        display: block;
     }
 }
 
